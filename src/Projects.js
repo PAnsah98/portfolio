@@ -17,7 +17,7 @@ const Projects = () => {
                able to post an event and join an event posted by someone else. 
                You get to see the events available and the days they will take place.
                This is a joint project where I developed the front end, from the 
-               registration pages to user dashboard and eveerything
+               registration pages to user dashboard and every other thing
                 <li>
                     React JS
                 </li>
@@ -35,7 +35,7 @@ const Projects = () => {
                </div>
               </div>
 
-           <div class = "grid md:grid-cols-2">
+           <div class = "grid md:grid-cols-3">
            <div class = "bg-red-50 p-5 m-5 mt-10">
             <span  class="text-left text-cyan-600 text-xl font-bold mt-10 ml-10">PanFood</span>
                   <div>
@@ -78,16 +78,15 @@ const Projects = () => {
               
                   </div>
                  </div>
-              </div>
+              
 
-              <div class = "bg-purple-50 p-5 m-5">
+              <div class = "bg-purple-50 p-5 m-5 mt-10">
             <span  class="text-left text-cyan-600 text-xl font-bold mt-10 ml-10">Standards Catalogue</span>
   
-              <div class = "grid md:grid-cols-2">
+              <div>
                 <p class = "mr-10 ml-10 mb-10 mt-5 text-lg font-medium">
                This is a catalogue website, where you get to know the prices 
-               of stuff and if you would want to buy, you could add to your cart,
-                It goes on to show other products available. this project is purely frontend.
+               of stuff. It goes on to show other products available. Entirely frontend.
                 <li>
                     HTML
                 </li>
@@ -100,6 +99,7 @@ const Projects = () => {
                 </p>
 
                 <img class="md:w-100 md:h-auto mx-auto shadow-md" src="img/standards.png" alt="" width="384" height="520"/>
+              </div>
               </div>
               </div>
 
