@@ -3,17 +3,17 @@ import React from 'react'
 const About = () => {
     return (
 <div className = "about">
-            <div class="text-center mt-20 mb-20 ml-5">
+            <div class="text-center mt-20 mb-20">
                 <span class="block uppercase text-pink-700 text-2xl font-bold">
                     What I do</span>
 </div>
 
-<div class = "grid md:grid-cols-3 ml-20">
+<div class = "grid lg:grid-cols-3 ml-5">
     <div>
-    <img class="w-1/6 h-1/6 rounded-none mx-auto ml-20 mb-5" src="img/frontend.png" alt="" width="384" height="520"/>
-  <div class="text-cyan-600 text-xl font-bold">
+    <img class="w-1/6 h-1/6 mx-auto mb-5" src="img/frontend.png" alt="" width="384" height="520"/>
+  <div class="text-center md:mr-10 lg:ml-20 md:ml-5 text-xl font-bold">
     Front-End Development
-    <p class = "mr-20 mb-20 mt-5 text-lg font-medium">
+    <p class = "text-center mb-20 mt-5 text-lg font-medium">
     I build efficient and responsive 
     frontend systems with React JS, Bootstrap,
      Tailwind CSS. I also handle the integration 
@@ -23,10 +23,10 @@ const About = () => {
   </div>
   
   <div>
-  <img class="w-1/6 h-1/6 rounded-none mx-auto ml-20 mb-5" src="img/webdev.png" alt="" width="384" height="520"/>
-  <div class="text-cyan-600 text-xl font-bold">
+  <img class="w-1/6 h-1/6 mx-auto mb-5" src="img/webdev.png" alt="" width="384" height="520"/>
+  <div class="text-center md:mr-10 md:ml-5 text-xl font-bold">
     Web Development
-    <p class = "mr-20 mb-20 mt-5 text-lg font-medium">
+    <p class = "text-center mb-20 mt-5 text-lg font-medium">
     I build excellent and responsive 
     websites with React JS, Bootstrap,
      Tailwind CSS and tools like HTML, CSS, and JS.
@@ -35,10 +35,10 @@ const About = () => {
   </div>
 
 <div>
-<img class="w-1/6 h-1/6 rounded-none mx-auto ml-20 mb-5" src="img/uidesign.png" alt="" width="384" height="520"/>
-  <div class="text-cyan-600 text-xl font-bold">
+<img class="w-1/6 h-1/6 mx-auto mb-5" src="img/uidesign.png" alt="" width="384" height="520"/>
+  <div class="text-center md:mr-10 md:ml-5 text-xl font-bold">
   UI/UX Design
-  <p class = "mr-20 mb-20 mt-5 text-lg font-medium">
+  <p class = "text-center mb-20 mt-5 text-lg font-medium">
   I design and create web and mobile user interfaces 
   that ensure that the user has an amazing 
   experience using Figma and some help from Adobe PS.
@@ -47,13 +47,13 @@ const About = () => {
   </div>
 </div>
 
-<div class = " mb-20">
+<div class = "mb-20">
 <div>
         <span  class="block uppercase text-pink-700 text-2xl font-bold text-center mb-10">
             Skills
             </span>
 
-        <div class = "grid md:grid-cols-2 md:ml-20 md:mr-20">
+        <div class = "grid lg:grid-cols-2 lg:ml-20">
 
         <div class = "m-5">
        <div class="bg-white shadow-lg">

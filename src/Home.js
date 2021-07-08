@@ -3,22 +3,20 @@ import About from './About';
 import Projects from './Projects';
 import Resume from './Resume';
 import Contact from './Contact';
-import Footer from './Footer'
+import Footer from './Footer';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
  <div className="container">
 
-      <div class="rounded-xl p-8">
+      <div class="p-8">
       <div class="mt-8 grid md:grid-cols-2 gap-5">
    
-  <div class="pt-6 text-center space-y-4">
-    <blockquote>
+  <div class="pt-6 text-center space-y-4 lg:ml-10">
       <p class="text-lg font-semibold">
     Hi World, I am Portia Ansah.
       </p>
-    </blockquote>
   
       <div class="text-cyan-600 text-4xl font-semibold">
         I'm a freelance Software developer, with Computer Science background, specializing in Front-end and web dev.
@@ -30,7 +28,7 @@ const Home = () => {
  
   </div>
 
-  <img class="md:w-100 md:h-auto rounded-full mx-auto" src="img/memoji1.jpg" alt="" width="384" height="520"/>
+  <img class="md:h-auto rounded-full mx-auto" src="img/memoji1.jpg" alt="" width="364" height="520"/>
         
   </div>
 </div>

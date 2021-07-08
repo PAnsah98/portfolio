@@ -4,20 +4,18 @@ const Contact = () => {
     return (
        <div className="contact">
            <div class = "text-center mt-20">
-               <span class = "block uppercase text-pink-700 text-2xl font-bold">Contact</span>
+               <span class = "uppercase text-pink-700 text-2xl font-bold">Contact</span>
            </div>
 
-           <div class="rounded-xl p-8">
-               <div class = "mt-8 grid md:grid-cols-2 gap-10">
-                   <div class = "md:m-20">
-                     <p class="text-gray-600 text-xl font-medium mb-20">Have an inquiry or some feedback for me? <br/>
+           <div class="mt-8 grid md:grid-cols-2 gap-5">
+                   <div class = "m-5 lg:ml-20">
+                     <div class="text-gray-600 text-xl font-medium mb-20 lg:ml-10">Have an inquiry or some feedback for me?<br/>
                      Need a website or a front end developer? 
-                     <br/> </p>
+                     </div>
 
-                     <span class="text-gray-500 md:mt-10">Get in touch:</span>
+                     <span class="text-gray-500 md:mt-10 lg:ml-10">Get in touch:</span>
 
-                     <div class="flex items-baseline mt-4 mb-6">
-                     <div class="flex"></div>
+                     <div class="flex items-baseline mt-4 mb-6 lg:ml-10">
                    <a href="https://github.com/PAnsah98" target = "_blank" rel="noreferrer" class = "w-7 h-7 mr-3 flex items-center">
                     <img src="img/github.png" alt="git"/></a>
 
@@ -29,10 +27,8 @@ const Contact = () => {
                    </div>
                    </div>
 
-                   <div><img class="md:w-100 ml-20 mt-0" src="img/memoji2.jpg" alt="" width="384" height="450"/></div>
+                   <div><img class="md:h-auto rounded-full mx-auto" src="img/memoji2.jpg" alt="" width="364" height="450"/></div>
                    </div>
-                   </div>
-
                    </div>
                   
                    

@@ -4,6 +4,12 @@
 @tailwind utilities;
 
 /* base styles */
+.container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+} 
+
 * {
   margin: 0;
   font-family: "Quicksand";
@@ -26,7 +32,6 @@
   color: #BE185D;
   font-size: larger;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   display: flex;
   font-weight: bold;
@@ -35,12 +40,11 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
+  grid-gap: 5px;
   list-style: none;
   text-align: center;
-  width: 60vw;
+  width: 80vw;
   justify-content: end;
-  margin-right: 2rem;
 }
 
 .nav-links {
@@ -69,14 +73,11 @@
   padding: 20px;
 }*/
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 440px) {
   .NavbarItems {
     position: relative;
   }
   
-.navbar h2 {
-  font-size: large;
-}
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -113,10 +114,12 @@
   }
 
   .navbar h2 {
-    position:absolute;
-    left: 0;
+    font-size: large;
+    position: absolute;
+    left: 10px;
     bottom: 10px;
     top: 10px;
+    
   }
   
   .menu-icon {
